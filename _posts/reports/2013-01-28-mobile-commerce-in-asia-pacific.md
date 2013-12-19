@@ -1,5 +1,5 @@
 ---
-title: "Mobile Commerce in Asia-Pacific (updated)"
+title: "Mobile Commerce in Asia-Pacific (updated 2)"
 price: 1800
 tags: 
   - Mobile Commerce
@@ -26,8 +26,6 @@ published: true
    - UAE
 3. Overview of Online Commerce in Asia-Pacific
 4. Projections
-
- <!--ENDTOC-->
 
 The report studies the phone usage trends in Asia-Pacific with specific focus on Mobile Commerce.  The report reveals that 9% of high-end phone owners in Asia-Pacific will make online purchases through their mobile handsets by the year 2018. Japan and South Korea lead the region in terms of Mobile Commerce penetration.  Operators in Asia-Pacific are increasingly entering in agreements with third party providers to develop Mobile Commerce.
 
