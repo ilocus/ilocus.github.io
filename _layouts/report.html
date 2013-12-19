@@ -1,0 +1,31 @@
+{% include header.html %}
+<div class="row">
+    <div id="info-wrapper" class="small-12 medium-4 large-4 columns">
+        <header>
+        {% include infobar.html %}
+        </header>
+    </div>
+    <div id="report-wrapper" class="small-12 medium-8 large-8 columns">
+        <div id="post-header" class="">
+                <div id="meta">
+                    <span class="label secondary">{{ page.date | date_to_string }}</span>
+                    <span class="tags">
+                        {% for tag in page.tags %}
+                        <a href="{{ tag.url }}"><span class="tag label">{{ tag }}</span></a>
+                        {% endfor %}
+                    </span>
+                </div>
+                <h1>{{ page.title }}</h1>
+                <a class="button expand btn-price">
+                    Buy now
+                    {{ page.price }}
+                    USD
+                </a>
+        </div>
+        <div id="post-content">
+            <h3>What's inside</h3>
+            {{ content }}
+        </div>
+    </div>
+</div>
+{% include footer.html %}

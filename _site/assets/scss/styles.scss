@@ -1,0 +1,68 @@
+@import "settings";
+@import "foundation";
+
+body {
+    background: #fefefe;
+    font-size: rem-calc(16px);
+}
+h1, h2, h3 {
+    font-variant: small-caps;
+}
+#main {
+    #site-name{
+        height: 85px;
+        color: #fefefe;
+    }
+
+    #info-wrapper {
+        background: url(/assets/img/dark_mosaic.png) fixed;
+        color: #fefefe;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .item-list {
+        .item {
+            .item-container {
+                display: block;
+                position: relative;
+                overflow: hidden;
+                .meta {
+                    color: $body-font-color;
+                }
+                .post-info {
+                    padding-left: rem-calc(12px);
+                    border-top: 1px solid $primary-color;
+                }
+                .title {
+                    font-size: rem-calc(24px);
+                    font-family: $header-font-family;
+                    color: $body-font-color;
+                }
+                .meta  {
+                }
+                .tags {
+                }
+                .price {
+                    font-family: $header-font-family;
+                    font-weight: bold;
+                    margin-bottom: 0;
+                    display: block;
+                    font-variant: small-caps;
+                    small {
+                        display: block;
+                        font-weight: normal;
+                        font-variant: small-caps;
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+footer {
+    background: #074E68;
+    height: rem-calc(60px);
+}
